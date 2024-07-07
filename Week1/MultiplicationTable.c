@@ -76,3 +76,13 @@ int main2() {
 }
 
 //엥 각자 따로따로 하면 나오기는 하는데 어케 합치지//
+//do-while은 그냥 while위치에 do놓고 나중에 조건 넣는건가//
+
+int main() {
+	for (int num5 = 7; num5 < 10; num5++)
+		for (int num6 = 1; num6 < 10; ++num6)
+			printf("%d * %d=%d\n", num5, num6, num5 * num6);
+
+}
+
+//흐흐하하ㅏㅏㅎㅎ또 성공했지뭐야???이제 합쳐야해//
