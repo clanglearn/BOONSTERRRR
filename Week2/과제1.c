@@ -25,6 +25,4 @@ int main() {
 	printf("입력된 정수 중에서 최댓값 : %d\n", Max);
 	printf("입력된 정수 중에서 최솟값 : %d", Min);
 
-
-
 }
