@@ -2,18 +2,20 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-	int num,i;
-	i = scanf("%d", &num);
-	
-	void* malloc(i);
-	for (int p = 0; p < i; p++) {
-		int j;
-		scanf("%d", &j);
 
-		printf("%d",j);
+int main() {
+	int i;
+	scanf("%d", &i);
+	int* num;
+	num = (int*)malloc(i * sizeof(int));
+	for (int a = 0; a < i; a++) {
+		scanf("%d", &num[a]);
 
 	}
-	void free();
+	for (int b = 0; b < i; b++) {
+		printf("%d ", num[b]);
+	}
+	
+	free(num);
 }
-//엥 어케하는거임 이해가 안가//
+
